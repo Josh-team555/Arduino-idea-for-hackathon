@@ -1,12 +1,19 @@
-
-
-
 void setup() {
-  // put your setup code here, to run once:
-
+  Serial.begin(9600);   //Start the serial monitor
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  int i = random(0,3);  //Determine a random number for the first catagory
+  
+  if (i == 1) {
+    //catagory one
+  }
+  else if(i == 2) {
+    //catagory two
+  }
+  else {
+    //catagory three
+  }
+  
 
 }
