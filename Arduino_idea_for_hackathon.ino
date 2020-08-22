@@ -1,5 +1,5 @@
-String firstKnockKnock[] = {"Brett", "Bacon", "Butter", "Norway", "Alda"};
-String secondKnockKnock[] = {"BrettYouDoNotKnowWhoThisIs", "IAmBaconACakeForYourBirthday", "IButterNotTellYouItIsASecret", "ThereIsNorwayIAmLeavingUntilYouOpenThisDoor", "AldaKidsLikeMyKnockKnockJokes"};
+String firstKnockKnock[] = {"Brett", "Bacon", "Butter", "Norway", "Alda", "Annie", "Lena", "Adore", "I am", "Hike"};
+String secondKnockKnock[] = {"BrettYouDoNotKnowWhoThisIs", "IAmBaconACakeForYourBirthday", "IButterNotTellYouItIsASecret", "ThereIsNorwayIAmLeavingUntilYouOpenThisDoor", "AldaKidsLikeMyKnockKnockJokes", "Annie thing you can do I can better!", "Lena a little closer, and I’ll tell you another joke!", "Adore is between you and me so please open up!", "Don’t you even know who you are?!", "I didn’t know you liked Japanese poetry!"};
 
 
 void setup() {
@@ -13,20 +13,25 @@ void loop() {
   if (i == 1) {
     //catagory one
     Serial.println("knock-knock");
+    Serial.println("");
     while (true) {
       String stringStorage = Serial.readString(); 
       if (stringStorage != "") {
+        Serial.println(stringStorage);
         stringStorage = "";
         break;
       }
     }
     
-    int j = random(0,6);
+    int j = random(0,10);
     Serial.println(firstKnockKnock[j]);
+    Serial.println("");
      
     while (true) {
       String stringStorage = Serial.readString(); 
       if (stringStorage != "") {
+        Serial.println(stringStorage);
+        Serial.println("");
         stringStorage = "";
         break;
       }
