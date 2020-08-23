@@ -89,7 +89,7 @@ void generateHaiku()  {
   const  String nounsL2[] = {"Bumblebee ", "Desk ", "Tea Infuser ", "Laptop ", "Frisbee ", "Calculator ", "Moon"}; 
   const  int nounSyllValsL2[] = {3, 1, 4, 2, 2, 4, 1};
 
-  const  String adjectivesL2[] = {"Blue ", "Communicated ", "Musical ", "Manotonous ", "Peaceful "};
+  const  String adjectivesL2[] = {"Blue ", "Extraordinary ", "Musical ", "Manotonous ", "Peaceful "};
   const  int adjectiveSyllValsL2[] = {1, 5, 3, 4, 2};
 
   const  String verbsL2[] = {"Danced", "Ventured", "Decided", "Written", "Comprehended"};
