@@ -1,6 +1,6 @@
 # Arduino-idea-for-hackathon
 
-Welcome to the {insert name here}!
+Welcome to the Nuclear Narwhals project!
 
 
 
