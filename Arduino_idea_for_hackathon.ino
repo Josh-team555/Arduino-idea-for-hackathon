@@ -1,5 +1,5 @@
 String firstKnockKnock[] = {"Brett", "Bacon", "Butter", "Norway", "Alda", "Annie", "Lena", "Adore", "I am", "Hike"};
-String secondKnockKnock[] = {"BrettYouDoNotKnowWhoThisIs", "IAmBaconACakeForYourBirthday", "IButterNotTellYouItIsASecret", "ThereIsNorwayIAmLeavingUntilYouOpenThisDoor", "AldaKidsLikeMyKnockKnockJokes", "Annie thing you can do I can better!", "Lena a little closer, and I’ll tell you another joke!", "Adore is between you and me so please open up!", "Don’t you even know who you are?!", "I didn’t know you liked Japanese poetry!"};
+String secondKnockKnock[] = {"Brett You Do Not Know Who This Is", "I Am Bacon A Cake For Your Birthday", "I Butter Not Tell You It Is A Secret", "There Is Norway I Am Leaving Until You Open This Door", "Alda Kids Like My Knock Knock Jokes", "Annie thing you can do I can better!", "Lena a little closer, and I’ll tell you another joke!", "Adore is between you and me so please open up!", "Don’t you even know who you are?!", "I didn’t know you liked Japanese poetry!"};
 
 
 void setup() {
