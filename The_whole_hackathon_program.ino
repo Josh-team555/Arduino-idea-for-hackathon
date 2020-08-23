@@ -59,32 +59,42 @@ void loop() {
   
 
 
-
-   
-  if (placeHolder == 74) {
   
-    //catagory one
+  String stringStorage;
+  if (placeHolder == 74) {
+    
     Serial.println("knock-knock");
     Serial.println("");
-    String stringStorage = "";
+    
+    while(Serial.available() > 0) {
+    Serial.read();
+  }
     
     while (true) {
+      stringStorage = "";
       
-      stringStorage = Serial.readString(); 
-      if (stringStorage != "") {
+      stringStorage = Serial.readString();
+      
+      
+      
+      
+      if (stringStorage.length() > 1) {
         Serial.println(stringStorage);
+        Serial.println("");
         stringStorage = "";
         break;
-      }
+      } 
+      
     }
     randomSeed(analogRead(34));
     int j = random(0,10);
     Serial.println(firstKnockKnock[j]);
     Serial.println("");
-     
+    stringStorage = ""; 
+    
     while (true) {
       
-      String stringStorage = Serial.readString(); 
+      stringStorage = Serial.readString(); 
       if (stringStorage != "") {
         Serial.println(stringStorage);
         Serial.println("");
@@ -96,6 +106,10 @@ void loop() {
     Serial.println(secondKnockKnock[j]);
     delay(1000);
   } 
+
+
+
+
   
   else if(placeHolder == 72) {
     while (firstLineSyllVal != 5) {
